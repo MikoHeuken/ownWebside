@@ -1,0 +1,84 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    width: 80%;
+    margin-right: 10px;
+}
+
+.rechts{
+    width: 20%;
+}
+
+article{
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blog{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social{
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    font-weight: lighter;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+#insta{
+    background-image: linear-gradient(to right, rgb(204, 0, 255) 0%, rgb(230, 103, 0) 100%);
+}
+
+#reddit{
+    background-color: orangered;
+}
+
+.headline{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
