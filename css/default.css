@@ -82,3 +82,17 @@ ul {
   .active {
     background-color: #4CAF50;
   }
+
+.nebenBild{
+    width: 75%;
+}
+
+.bild{
+    width: 25%;
+    flex-direction: column;
+}
+
+.scale{
+    height: 20%;
+    width: 20%;
+}
